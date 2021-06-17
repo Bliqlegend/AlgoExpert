@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "vector": "cpp",
-        "xhash": "cpp"
+        "xhash": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp"
     }
 }

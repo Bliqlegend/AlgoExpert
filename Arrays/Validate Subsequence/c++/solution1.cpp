@@ -4,7 +4,6 @@
 using namespace std;
 // O(n) Time | O(1) Space
 
-
 bool isValidSubsequence(vector<int> array, vector<int> sequence) {
   // Write your code here.
 	int arid = 0;
