@@ -1,0 +1,1 @@
+first_multiple_input = input().rstrip().split()
