@@ -13,7 +13,7 @@ def twoNumberSum(arr,ts):
         if match in nums:
             return [num,match]
         nums[num] = True
-    return []     
+    return []
 
 arr = [int(ele) for ele in input().split()]
 ts = int(input())
