@@ -23,18 +23,16 @@ def deleteNode(head,index):
 
 
 def duplicate(head):
-    hash = {}
     curr = head
-    count = 0
-    hash[curr.data] = True
-    while curr is not None:
-        if curr.data in hash:
-            deleteNode(curr,count)
-            curr = curr.next
+    if curr is None:
+        return None
+    while curr.next is not None:
+        if curr.data == curr.next.data:
+            nexct = curr.next.next
+            curr.next = None
+            curr.next = nexct
         else:
-            hash[head] = True
             curr = curr.next
-        count+=1
     return head
 
 
