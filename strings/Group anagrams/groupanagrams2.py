@@ -13,3 +13,4 @@ def groupAnagrams(words):
 
 words = [ele for ele in input().split()]
 groupAnagrams(words)
+
